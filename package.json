@@ -1,0 +1,22 @@
+{
+  "name": "diary-bot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.13",
+    "config": "^3.3.9",
+    "openai": "^4.4.0",
+    "telegraf": "^4.12.2"
+  }
+}
